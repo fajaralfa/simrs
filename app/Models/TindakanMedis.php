@@ -10,4 +10,6 @@ class TindakanMedis extends Model
     use HasFactory;
 
     protected $table = 'tindakan_medis';
+
+    protected $fillable = [ 'kode', 'tindakan_medis', 'biaya' ];
 }
